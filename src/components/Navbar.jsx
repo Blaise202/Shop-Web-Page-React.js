@@ -16,6 +16,9 @@ export function Navbar() {
       <Link to="/contact">
         <button className="navbutton">Contact Us</button>
       </Link>
+      <Link to="/cart">
+        <button className="navbutton">Cart</button>
+      </Link>
     </div>
   );
 }

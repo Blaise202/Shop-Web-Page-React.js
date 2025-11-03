@@ -1,7 +1,7 @@
 .navbar {
   top: 0;
-  left: 25%;
-  width: 50%;
+  left: 15%;
+  width: 70%;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -14,4 +14,15 @@
 .navbutton {
   background-color: black;
   font-size: 12px;
+}
+
+.cartBtn {
+  background-color: #fff;
+  color: black;
+}
+
+.productCard {
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 25px;
 }

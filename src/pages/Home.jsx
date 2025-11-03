@@ -1,7 +1,15 @@
+import { Link } from "react-router-dom";
+import Gym from "../../public/images/gym.png";
+
 export function Home() {
   return (
     <>
-      <h1>this is the home page</h1>
+      <h2>Welcome to gym store</h2>
+      <img src={Gym} />
+      <br />
+      <Link to="/products">
+        <button>View All Products</button>
+      </Link>
     </>
   );
 }
