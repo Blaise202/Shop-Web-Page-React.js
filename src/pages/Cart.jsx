@@ -14,10 +14,6 @@ export function Cart({ cart, setCart }) {
           </>
         );
       })}
-      <br />
-      <br />
-      <br />
-      <button>CHECKOUT</button>
     </>
   );
 }
